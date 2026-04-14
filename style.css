@@ -114,7 +114,7 @@ section{
 }
 .titulo{
     position: relative;
-    right: 0;
+    right: 0%;
     display: flex;
     margin: 0 auto;
     z-index: 1;
@@ -244,3 +244,11 @@ card2 {
     box-sizing: border-box; /* Evita que el padding rompa las 2 columnas */
     align-items: start; /* Alinea las cards arriba para que no se estiren raro */
 }
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
